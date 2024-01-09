@@ -250,9 +250,14 @@ const awards = {
       <ul>
         <li>Created alphas with high Sharpe Ratios, profitable tradings with high investment returns </li>
       </ul>
-      <p style={{fontSize:20, marginBottom:0}}><b> Salutatorian, International Baccalaureate (2022)</b></p>
+    <p style={{fontSize:20, marginBottom:0}}><b> UAE Golden Visa, Outstanding Students Category(2021)</b></p>
       <ul>
-        <li> Achieved 2nd place globally, as well as awarded the KS Varkey Scholarship</li>
+        <li> Rewarded under 'Distinction Student' classification; based on academic performance</li>
+        
+      </ul>
+      <p style={{fontSize:20, marginBottom:0}}><b> Salutatorian, International Baccalaureate (2021)</b></p>
+      <ul>
+        <li> Achieved 2nd place globally, as well as awarded the KS Varkey Merit Scholarship</li>
         
       </ul>
      
