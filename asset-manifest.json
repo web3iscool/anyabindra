@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.778eeed7.css",
-    "main.js": "/static/js/main.bb4dca23.js",
+    "main.js": "/static/js/main.ff0b955b.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/awards_halogen.png": "/static/media/awards_halogen.3c530538990b740948e6.png",
     "static/media/awards_ib.png": "/static/media/awards_ib.58dc15da301dd33d6d79.png",
     "static/media/headshot.jpg": "/static/media/headshot.6be23b174cc89fdfbe2b.jpg",
     "static/media/logo_matplotlib.png": "/static/media/logo_matplotlib.1f3cb36363d0eb2c163f.png",
     "static/media/logo_python.png": "/static/media/logo_python.3b33e236a97b9048b336.png",
     "static/media/logo_jira.png": "/static/media/logo_jira.7513188e4b357b737ecb.png",
     "static/media/logo_wordpress.png": "/static/media/logo_wordpress.558ce8b2efb7b495b402.png",
+    "static/media/awards_halogen2.png": "/static/media/awards_halogen2.64c4c1978b5b7d7c66b8.png",
     "static/media/logo_react.png": "/static/media/logo_react.73dbb5bcec516da82694.png",
     "static/media/resume.pdf": "/static/media/resume.d66efcec2ea7a35c1731.pdf",
     "static/media/logo_agile.png": "/static/media/logo_agile.b3c32aef9c3803ba68d5.png",
@@ -22,11 +24,11 @@
     "static/media/logo_html.png": "/static/media/logo_html.d50fc7a86b6f3764610b.png",
     "index.html": "/index.html",
     "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
-    "main.bb4dca23.js.map": "/static/js/main.bb4dca23.js.map",
+    "main.ff0b955b.js.map": "/static/js/main.ff0b955b.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.bb4dca23.js"
+    "static/js/main.ff0b955b.js"
   ]
 }
