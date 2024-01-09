@@ -209,7 +209,7 @@ const leadership = {
       date: 'Sept 2023- Present',
       description:
         <ul>
-         <li>Taught online math classes and explained challenging concepts for 1st-8th grade students in the Cambridge area</li>
+         
           <li> Worked with Plug and Play as a University Fellow to analyze 30+ startups per week from weekly pitch sessions,evaluated team structure, value proposition, competitive advantage, market size and ESG goals. </li>
           <li> Performed due diligence with team to develop investment rationale and recommend startups to invest in, focusing in the FinTech, Commerce and Supply Chain industries. </li>
         </ul>,
@@ -232,13 +232,13 @@ const leadership = {
 //      i.e: reposLength: 0,
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
-const repos = {
-  show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "michelleliu4",
-  reposLength: 4,
-  specificRepos: ['Jreamboard', 'goodbot-slack'],
-};
+//const repos = {
+  //show: true,
+  //heading: "Recent Projects",
+  //gitHubUsername: "michelleliu4",
+  //reposLength: 4,
+  //specificRepos: ['Jreamboard', 'goodbot-slack'],
+//};
 
 // AWARDS SECTION
 const awards = {
@@ -246,32 +246,25 @@ const awards = {
   heading: "Awards",
   message:
   <div>
-    <p style={{fontSize:20, marginBottom:0}}><b>AIME Qualifier (2018, 2021)</b></p>
+    <p style={{fontSize:20, marginBottom:0}}><b>2nd place, WorldQuant Alphathon, Gold Level (2023)</b></p>
       <ul>
-        <li>Two-time AIME qualifier, scoring in the top 5% of all AMC 12 exam takers worldwide, as well as a Math Prize for Girls participant</li>
+        <li>Created alphas with high Sharpe Ratios, profitable tradings with high investment returns </li>
       </ul>
-      <p style={{fontSize:20, marginBottom:0}}><b>Hackathon for Social Good Bronze Award (2022)</b></p>
+      <p style={{fontSize:20, marginBottom:0}}><b> Salutatorian, International Baccalaureate (2022)</b></p>
       <ul>
-        <li>Built <a href="https://github.com/michelleliu4/goodbot-slack">Goodbot</a>, a Slack bot for workplace satisfaction</li>
-        <li><a href="https://robinhood.engineering/robinhoods-hackathon-for-social-good-92c91a5726c3">Robinhood blog post</a> about the hackathon</li>
+        <li> Achieved 2nd place globally, as well as awarded the KS Varkey Scholarship</li>
+        
       </ul>
-      <p style={{fontSize:20, marginBottom:0}}><b>National Science Bowl Top 32 (2021)</b></p>
-      <ul>
-        <li>Member of the Nevada team at the National Science Bowl Competition, sponsored by the DOE</li>
-      </ul>
-      <p style={{fontSize:20, marginBottom:0}}><b>Doyle Foundation Scholarship (2021, 2022, 2023)</b></p>
-      <ul>
-        <li>Three-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship</li>
-      </ul>
+     
   </div>,
   images: [
     { 
-      img: require("../assets/img/awards_robinhood.png"), 
+      img: require("../assets/img/awards_worldquant.png"), 
       label: "", 
       paragraph: "" 
     },
     { 
-      img: require("../assets/img/awards_nsb.png"), 
+      img: require("../assets/img/awards_ib.png"), 
       label: "", 
       paragraph: "" 
     },
