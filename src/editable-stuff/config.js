@@ -7,31 +7,31 @@ const navBar = {
 // https://fontawesome.com/v4/icons/
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Michelle",
+  firstName: "Anya",
   middleName: "",
-  lastName: "Liu",
-  message: "Applied math and computer science student at Brown University",
+  lastName: "Bindra",
+  message: "Electrical and Computer Engineering at Carnegie Mellon University",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/michelleliu4",
+      url: "https://github.com/anyabindra12",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/michelleliu-4",
+      url: "https://www.linkedin.com/in/linkedin",
     },
     // {
     //   image: "fa-discord",
     //   url: "https://discordapp.com/users/384794549412954113",
     // },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/michelle.liu.4",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/michelle.liu.4",
-    },
+    //{
+      //image: "fa-facebook",
+     // url: "https://www.facebook.com/michelle.liu.4",
+    //},
+    //{
+     // image: "fa-instagram",
+     // url: "https://www.instagram.com/michelle.liu.4",
+   // },
   ],
 };
 
