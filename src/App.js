@@ -46,14 +46,6 @@ const Home = React.forwardRef((props, ref) => {
           leadershipList={leadership.data}
         />
       )}
-      //{repos.show && (
-        //<Project
-          //heading={repos.heading}
-          //username={repos.gitHubUsername}
-          //length={repos.reposLength}
-          //specfic={repos.specificRepos}
-        ///>
-      //)}
       {skills.show && (
         <Skills
           heading={skills.heading}
