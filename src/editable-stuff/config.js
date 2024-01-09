@@ -7,31 +7,31 @@ const navBar = {
 // https://fontawesome.com/v4/icons/
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Anya",
+  firstName: "Michelle",
   middleName: "",
-  lastName: "Bindra",
-  message: "Electrical and Computer Engineering at Carnegie Mellon University",
+  lastName: "Liu",
+  message: "Applied math and computer science student at Brown University",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/anyabindra12",
+      url: "https://github.com/michelleliu4",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/linkedin",
+      url: "https://www.linkedin.com/in/michelleliu-4",
     },
     // {
     //   image: "fa-discord",
     //   url: "https://discordapp.com/users/384794549412954113",
     // },
-    //{
-      //image: "fa-facebook",
-     // url: "https://www.facebook.com/michelle.liu.4",
-    //},
-    //{
-     // image: "fa-instagram",
-     // url: "https://www.instagram.com/michelle.liu.4",
-   // },
+    {
+      image: "fa-facebook",
+      url: "https://www.facebook.com/michelle.liu.4",
+    },
+    {
+      image: "fa-instagram",
+      url: "https://www.instagram.com/michelle.liu.4",
+    },
   ],
 };
 
@@ -54,40 +54,45 @@ const about = {
   imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
   message:
-    "Hi! I am a junior at Carnegie Mellon University studying Electrical and Compuetr Engineering. I am broadly interested at the intersection of Computational Finance and Machine Learning." ,
+    "Hi! I am a junior at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
   resume: require("../editable-stuff/resume.pdf"),
   education:
     <div>
-    <p style={{fontSize:22, marginBottom:0}}><b>Carnegie Mellon University</b></p>
-    <p style={{fontSize:18, marginBottom:0}}>B.Sc. Electrical and Computer Engineering, 2025 </p>
+    <p style={{fontSize:22, marginBottom:0}}><b>Brown University</b></p>
+    <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025 </p>
     <ul>
       <li>Computer Science Courses
         <ul>
-          <li>Machine Learning</li>
-          <li>Computer Systems, Functional Programming, Full Stack Development</li>
+          <li>Machine Learning, Deep Learning, NLP</li>
+          <li>Computer Systems, Web Development, Functional Programming</li>
           <li>Theory of Computation, Data Structures & Algorithms</li>
         </ul>
-  </li>
-      <li> Electrical Engineering Courses
-        <ul>
-          <li>Electronic Devices and Analog Circuits, Structure & Design of Digital Systems</li>
-          <li>Signals and Systems</li>
-          
-        </ul>
       </li>
-      <li> Math Courses
+      <li>Math Courses
         <ul>
-          <li>Matrices and Linear Transformations, Probability and Statistics,Multivariable Calculus</li>
-          <li> Discrete Math, Formal Logic</li>
-          
+          <li>Numerical Solutions of Differential Equations, Operations Research: Deterministic Models, Stochastic Calculus</li>
+          <li>Honors Statistics, Applied Partial Differential Equations</li>
+          <li>Abstract Algebra, Complex Analysis, Graph Theory</li>
         </ul>
       </li>
     </ul>
 
-    <p style={{fontSize:22, marginBottom:0}}><b>Gems Modern Academy</b></p>
-    <p style={{fontSize:18, marginBottom:0}}> Salutatorian, Aug 2019 - May 2021 </p>
-    
+    <p style={{fontSize:22, marginBottom:0}}><b>University of Nevada Reno</b></p>
+    <p style={{fontSize:18, marginBottom:0}}>Middle/High School Dual Enrollment, Aug 2015 – May 2021</p>
+    <ul>
+      <li>Relevant Courses
+        <ul>
+          <li>Game Theory, Topology, Real Analysis, Number Theory,
+        Calculus III, Linear Algebra, Microeconomics</li>
+        </ul>
+      </li>
+    </ul>
 
+    <p style={{fontSize:22, marginBottom:0}}><b>Davidson Academy</b></p>
+    <p style={{fontSize:18, marginBottom:0}}>Middle/High School, Aug 2015 – May 2021</p>
+    <ul>
+      <li>ACT: 36 (composite), Math: 36, Science: 35, English: 36, Reading: 35, Writing: 10</li>
+    </ul>
     </div>,
 };
 
@@ -97,81 +102,129 @@ const experience = {
   heading: "Experience",
   data: [
     {
-      company: 'Bank of America',
+      company: 'SIG',
       location: "New York, NY",
-      role: 'Sales and Trading Summer Analyst',
+      role: 'Quantitative Trading Intern',
       date: 'Summer 2024',
       description: [
         <ul>
-          <li>Global Markets Division. </li>
+          <li>Incoming for Summer 2024</li>
         </ul>
       ],
     },
     {
-      company: 'WorldQuant',
-      location: "Brain Platform",
-      role: 'Quantitative Trading Research Consultant',
-      date: 'Fall 2023 - Ongoing',
+      company: 'Lightspeed',
+      location: "Providence, RI",
+      role: 'Data Science Intern',
+      date: 'Spring 2024',
       description: [
         <ul>
-          <li>  Created alpha models and trading strategies with optimal Sharpe ratio (>1.25) by fine tuning input metrics on price-volume and fundamental datasets.</li>
-          <li> Leveraged time series and cross-sectional operators, backtested algorithm on options and stocks to generate high investment returns. </li>
-
+          <li>Incoming for Spring 2024</li>
         </ul>
       ],
     },
     {
-      company: 'Jefferies Financial Group',
-      location: "Jersey City, NJ",
-      role: 'Summer Analyst',
-      date: 'June 2023 – Aug 2023',
+      company: 'Brown University',
+      location: "Providence, RI",
+      role: 'Undergraduate Teaching Assistant',
+      date: 'Aug 2022 – Present',
       description: [
         <ul>
-          <li>Infrastructure & Security Group, Information Technology Division </li>
-          <li>Developed an Attribute Based Access Control Engine using Decision Trees, XGBoost and Random Forest classifier algorithms(91%accuracy)
-</li>
-          <li>Implemented a scalable, end to end bot subroutine in UiPath(VB,C#) that automates the process of provisioning access to systems, saving 320+ hours of admin work
-          <li>Programmed REST APIs using SpringBoot to retrieve Docker Images from a CI/CD pipeline and push them into an elastic container register </li>
-</li>
+          <li>Courses: Computational Linguistics (Fall 2023), Statistical Inference (Spring 2023), Machine Learning (Spring 2023), Functional Programming (Fall 2022)</li>
+          <li>Designed projects, homework, and exams as well as assisted with grading of assignments</li>
+          <li>Facilitated interactive workshops to foster collaboration, reinforce key concepts, and tackle challenging problem sets</li>
           <li>Supported over 300 individuals by moderating an online question forum and providing guidance during office hours</li>
-          <li>Learnt about Equity and Debt capital markets, evaluated financial statements inExcel, performed corporate valuation analysis </li>
-          <li> Conducted Exploratory Data Analysis (EDA) to gain critical insights, identify trends and patterns within datasets. </li>
-          <li> Developed skills in Cloud Computing, Windows Servers, and Splunk (Cloud Security), gaining experience in technology infrastructure.</li>
-          <li>Collaborated with cross-functional teams across data science and engineering to enhance data-driven decision-making processes </li>
-          <li> Tools,Technologies and Frameworks : CI/CD · Amazon Relational Database Service (RDS) · Microservices · Postman API · JavaScript  · Scrum · Bitbucket · Cyberark · Jira · DevOps · Machine Learning · Amazon EC2 · Spring Boot · Microsoft SQL Server · AWS SageMaker · Robotic Process Automation (RPA) · Python </li>
-
-
         </ul>,
       ],
     },
     {
-      company: "Jane Street",
-      location: "New York, NY",
-      role: "Quantitative Trading Insight Week",
-      date: "Aug 2023",
+      company: "JPMorgan Chase & Co.",
+      location: "Jersey City, NJ",
+      role: "Software Engineer Intern",
+      date: "Jun 2023 – Aug 2023",
       description: [
         <ul>
-         <li> Gained knowledge of market making,arbitrage,asset classes and securities through mock trading simulations,estimathons and strategy games.</li>
-         <li> Attended seminars and participated in discussions on heuristics and biases, liquidity in financial markets, and statistics. </li>
-        
+          <li>Leveraged Splunk queries and AWS to construct a robust data pipeline for extracting and preprocessing call center log data</li>
+          <li>Developed and implemented outlier detection and classification models, achieving over 90% accuracy identifying irregular and bad calls</li>
+          <li>Created time series models to find general trends in problematic calls across various regions, supporting a user base of over 50,000 call specialists</li>
         </ul>
       ],
     },
     {
-      company: 'Mashreq Bank',
-      location: "Dubai, United Arab Emirates",
-      role: 'Digital Technology Intern',
-      date: 'May 2022 - Jul 2022',
+      company: 'Visual Prosthesis Lab',
+      location: "Providence, RI",
+      role: 'Research Assistant',
+      date: 'Sep 2022 – Dec 2022',
       description: [
         <ul>
-          <li>Leveraged the NLP BERT transformer model for building a question answering and information retrieval pipeline on structured and tabular data</li>
-          <li>Conducted quantitative analysis on logical grouping of CIFs and RMs within the corporate, for increased efficiency in business operations </li>
-          <li> Learnt about integrating Microsoft Outlook, GraphAPI, Azure Datalake and CRM into the Pulse platform backend. Incorporated agile
-and scrum methodologies into the development and optimization of client and server side applications. </li>
-
+          <li>Conducted research and implemented Python computer vision frameworks to aid visually impaired individuals in navigation</li>
+          <li>Developed visual prosthesis devices by leveraging YoloV5 for object localization, Text2Voice for intuitive grasping, and OCR for character recognition</li>
         </ul>,
       ],
     },
+    {
+      company: 'Western Digital',
+      location: "Milpitas, CA",
+      role: 'Software Development Engineer Intern',
+      date: 'May 2022 – Aug 2022',
+      description: [
+        <ul>
+          <li>Designed test prioritization algorithm using Python and machine learning, increasing cycle efficiency by 50%</li>
+          <li>Created regression, random forest, and neural network models to predict failures with 95% accuracy</li>
+          <li>Utilized FastAPI and SQL queries to access and post algorithm performances on Elasticsearch</li>
+          <li>Studied natural language processing to create code coverage maps</li>
+        </ul>,
+      ],
+    },
+    // {
+    //   company: 'D.E. Shaw & Co.',
+    //   location: "New York, NY",
+    //   role: 'Discovery Fellowship Attendee',
+    //   date: 'May 2023',
+    //   description: [
+    //     <ul>
+    //       <li>Selected as one of 30 attendees for selective program to learn about roles at DE Shaw & Co</li>
+    //       <li>Studied financial market topics such as alpha and behavioral finance</li>
+    //     </ul>,
+    //   ],
+    // },
+    {
+      company: 'Citadel',
+      location: "New York, NY",
+      role: 'Discover Citadel & Citadel Securities Participant',
+      date: 'Apr 2023',
+      description: [
+        <ul>
+          <li>Selected as one of 120 out of over 2600 students to learn about quantitative roles at Citadel</li>
+          <li>Attended networking sessions with senior leaders to learn about company structure</li>
+          <li>Leveraged asset pricing and bidding to place 1st in a trading game</li>
+        </ul>,
+      ],
+    },
+    {
+      company: 'Jane Street',
+      location: "New York, NY",
+      role: 'First-Year Trading and Technology (FTTP) and INSIGHT Fellow',
+      date: 'Mar 2022, Aug 2022',
+      description: [
+        <ul>
+          <li>Selected as one of 60 students for FTTP and one of 40 students for INSIGHT, both highly competitive program to learn market-making and algorithmic trading</li>
+          <li>Programmed trading bot in Python leveraging arbitrage and bond pricing to place 3rd in electronic trading competition</li>
+        </ul>,
+      ],
+    },
+    // {
+    //   company: 'Jadepoint',
+    //   location: "Remote",
+    //   role: 'Consulting Intern',
+    //   date: 'Jan 2022',
+    //   description: [
+    //     <ul>
+    //       <li>Collaborated with the consulting team to design PowerPoint presentations and training tasks for clients in Aruba, effectively conveying performance psychology concepts</li>
+    //       <li>Conducted market research on the luxury hotel industry, providing valuable insights and recommendations to support strategic decision-making for the consulting projects</li>
+    //     </ul>,
+    //   ],
+    // },
   ]
 };
 
@@ -181,45 +234,76 @@ const leadership = {
   heading: "Activities & Leadership",
   data: [
     {
-      company: 'Smart Women Securities',
-      role: 'Research Board Analyst',
-      date: 'Sep 2022 – Present',
+      company: 'Anime Video Game Ensemble',
+      role: 'Co-Founder',
+      date: 'Sep 2021 – Present',
       description: 
         <ul>
-          <li> Prepare stock pitches, perform DCF and ratio analysis to value equities, conduct qualitative and quantitative evaluations to determine the Long/Short position. </li>
+          <li>Founded club and recruited over 70 members to arrange and perform anime and video game music in biannual concerts</li>
+          <li>Orchestrated club operations, including weekly rehearsals and a <a href="https://www.youtube.com/@brownavge">Youtube channel</a> with over 100k views</li>
         </ul>,
     },
     {
-      company: 'CMU Business and Technology Group, Product Studio',
-      role: 'Software Engineer',
-      date: 'Sept 2023 – Present',
+      company: 'Applied Math DUG',
+      role: 'President Emeritus, Executive Board',
+      date: 'Mar 2022 – Present',
       description:
         <ul>
-          <li>Working on OpenGym, a platform to monitor gym occupancy and usage. Utilized ESP 32 as a wifi/bluetooth sensor to collect data, a React Frontend and Node backend</li>
-          <li>Coordinated with key academic advisors and professors at CMU on the project. Incorporating time series data analysis for trend forecasting.</li>
+          <li>Lead a club of over 400 students, collaborating with board members to plan events such as industry panels, course advising, and social mixers</li>
+          <li>Managed over $1800 budget, allocating reosurces for social outreach initiatives and overseeing the <a href="https://brownamdug.wordpress.com/">website</a></li>
+          <li>Coordinated with the applied math department and clubs like SIAM and Association of Women in Mathematics to host events such as Pi Day, peer and faculty advising, and math talks</li>
         </ul>,
     },
     {
-      company: 'Scottie Ventures',
-      role: 'Venture Capital Analyst',
-      date: 'Sept 2023- Present',
+      company: 'Cambridge Math Circle',
+      role: 'Mathematics Instructor',
+      date: 'Apr 2020 – Dec 2022',
       description:
         <ul>
           <li>Taught online math classes and explained challenging concepts for 1st-8th grade students in the Cambridge area</li>
-          <li> Worked with Plug and Play as a University Fellow to analyze 30+ startups per week from weekly pitch sessions,evaluated team structure, value proposition, competitive advantage, market size and ESG goals. </li>
-          <li> Performed due diligence with team to develop investment rationale and recommend startups to invest in, focusing in the FinTech, Commerce and Supply Chain industries. </li>
+          <li>Constructed advanced Beast Academy and AoPS lesson plans used by over 150 students</li>
         </ul>,
     },
     {
-      company: 'Forte Foundation',
-      role: 'Undergraduate Campus Ambassador',
-      date: 'May 2023 - Present',
+      company: 'Ensemble Theatre',
+      role: 'Executive Board',
+      date: 'Feb 2022 – Present',
       description: 
         <ul>
-          <li> Serving as a representative of Forté on campus, facilitating recruiting, event management, and assisting Forté in creating a conducive environment for the leadership development of women of color. </li>
+          <li>Coordinated the production team and acted as a liaison between the board and and the show as an executive producer</li>
+          <li>Managed social media accounts and designed graphics for posts reaching over 600 followers</li>
+          <li>Coordinated with other performance and theatre groups to organize shows and scheduling in an advisory board</li>
         </ul>,
     },
-   
+    {
+      company: 'Machine Intelligence Community',
+      role: 'Executive Board',
+      date: 'Oct 2022 – May 2023',
+      description:
+        <ul>
+          <li>Constructed educational machine learning workshops in song generation with GPT-2 and neuro style transfer</li>
+          <li>Lead conceptual sessions for over 70 individuals, assisting them in understanding and coding machine learning projects</li>
+        </ul>
+    },
+    {
+      company: 'Harvard WECode',
+      role: 'Tech Fellow',
+      date: 'Nov 2022 – Feb 2023',
+      description: 
+        <ul>
+          <li>Performed club outreach and hosted events to promote Harvard's WECode conference, the largest student-run women in tech conference in the world</li>
+        </ul>,
+    },
+    // {
+    //   company: 'Full Stack at Brown',
+    //   role: 'Full Stack Developer',
+    //   date: 'Feb 2022 – May 2022',
+    //   description: 
+    //     <ul>
+    //       <li>Developed the backend for KeebWorld, an aggregate website for mechanical keyboard parts</li>
+    //       <li>Utilized Python and Beautiful Soup to web scrape off vendor websites and organize data into Firebase</li>
+    //     </ul>,
+    // },
   ]
 };
 
@@ -231,9 +315,9 @@ const leadership = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "qbit12",
+  gitHubUsername: "michelleliu4",
   reposLength: 4,
-  specificRepos: ['qml', 'task'],
+  specificRepos: ['Jreamboard', 'goodbot-slack'],
 };
 
 // AWARDS SECTION
@@ -242,13 +326,40 @@ const awards = {
   heading: "Awards",
   message:
   <div>
-    <p style={{fontSize:20, marginBottom:0}}><b> 2nd place, WorldQuant Alphathon and Gold Level (2023)</b></p>
+    <p style={{fontSize:20, marginBottom:0}}><b>AIME Qualifier (2018, 2021)</b></p>
       <ul>
-        <li> Created alphas with high Sharpe Ratios, profitable tradings with high investment returns </li>
+        <li>Two-time AIME qualifier, scoring in the top 5% of all AMC 12 exam takers worldwide, as well as a Math Prize for Girls participant</li>
       </ul>
-     
+      <p style={{fontSize:20, marginBottom:0}}><b>Hackathon for Social Good Bronze Award (2022)</b></p>
+      <ul>
+        <li>Built <a href="https://github.com/michelleliu4/goodbot-slack">Goodbot</a>, a Slack bot for workplace satisfaction</li>
+        <li><a href="https://robinhood.engineering/robinhoods-hackathon-for-social-good-92c91a5726c3">Robinhood blog post</a> about the hackathon</li>
+      </ul>
+      <p style={{fontSize:20, marginBottom:0}}><b>National Science Bowl Top 32 (2021)</b></p>
+      <ul>
+        <li>Member of the Nevada team at the National Science Bowl Competition, sponsored by the DOE</li>
+      </ul>
+      <p style={{fontSize:20, marginBottom:0}}><b>Doyle Foundation Scholarship (2021, 2022, 2023)</b></p>
+      <ul>
+        <li>Three-time recipient of the <a href="https://doylefound.org/">Doyle Foundation</a> Scholarship</li>
+      </ul>
   </div>,
- 
+  images: [
+    { 
+      img: require("../assets/img/awards_robinhood.png"), 
+      label: "", 
+      paragraph: "" 
+    },
+    { 
+      img: require("../assets/img/awards_nsb.png"), 
+      label: "", 
+      paragraph: "" 
+    },
+  ],
+  imageSize: {
+    width:"400", //orig: 615
+    height:"400" //orig: 450
+  }
 };
 
 // SKILLS SECTION
@@ -289,7 +400,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "Always open to opportunities! Please reach out to me at",
-  email: "anyab@andrew.cmu.edu",
+  email: "michelle_h_liu@brown.edu",
 };
 
 // BLOG SECTION
