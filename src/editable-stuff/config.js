@@ -67,7 +67,7 @@ const about = {
           <li>Computer Systems, Functional Programming, Full Stack Development</li>
           <li>Theory of Computation, Data Structures & Algorithms</li>
         </ul>
-      <ul>
+  </li>
       <li> Electrical Engineering Courses
         <ul>
           <li>Electronic Devices and Analog Circuits, Structure & Design of Digital Systems</li>
