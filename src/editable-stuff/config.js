@@ -321,4 +321,4 @@ const getInTouch = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, experience, leadership, repos, awards, skills, getInTouch };
+export { navBar, mainBody, about, experience, leadership, awards, skills, getInTouch };
