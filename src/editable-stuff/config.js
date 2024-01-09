@@ -54,45 +54,40 @@ const about = {
   imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
   message:
-    "Hi! I am a junior at Brown University studying Applied Mathematics and Computer Science. I am passionate about using tech to improve the world and an avid learner with many interests, especially in machine learning and entrepreneurship.",
+    "Hi! I am a junior at Carnegie Mellon University studying Electrical and Compuetr Engineering. I am broadly interested at the intersection of Computational Finance and Machine Learning. ,
   resume: require("../editable-stuff/resume.pdf"),
   education:
     <div>
-    <p style={{fontSize:22, marginBottom:0}}><b>Brown University</b></p>
-    <p style={{fontSize:18, marginBottom:0}}>Sc.B. Applied Math and Computer Science, Sep 2021 – May 2025 </p>
+    <p style={{fontSize:22, marginBottom:0}}><b>Carnegie Mellon University</b></p>
+    <p style={{fontSize:18, marginBottom:0}}>B.Sc. Electrical and Computer Engineering, 2025 </p>
     <ul>
       <li>Computer Science Courses
         <ul>
-          <li>Machine Learning, Deep Learning, NLP</li>
-          <li>Computer Systems, Web Development, Functional Programming</li>
+          <li>Machine Learning</li>
+          <li>Computer Systems, Functional Programming, Full Stack Development</li>
           <li>Theory of Computation, Data Structures & Algorithms</li>
         </ul>
-      </li>
-      <li>Math Courses
+      <ul>
+      <li> Electrical Engineering Courses
         <ul>
-          <li>Numerical Solutions of Differential Equations, Operations Research: Deterministic Models, Stochastic Calculus</li>
-          <li>Honors Statistics, Applied Partial Differential Equations</li>
-          <li>Abstract Algebra, Complex Analysis, Graph Theory</li>
+          <li>Electronic Devices and Analog Circuits, Structure & Design of Digital Systems</li>
+          <li>Signals and Systems</li>
+          
+        </ul>
+      </li>
+      <li> Math Courses
+        <ul>
+          <li>Matrices and Linear Transformations, Probability and Statistics,Multivariable Calculus</li>
+          <li> Discrete Math, Formal Logic</li>
+          
         </ul>
       </li>
     </ul>
 
-    <p style={{fontSize:22, marginBottom:0}}><b>University of Nevada Reno</b></p>
-    <p style={{fontSize:18, marginBottom:0}}>Middle/High School Dual Enrollment, Aug 2015 – May 2021</p>
-    <ul>
-      <li>Relevant Courses
-        <ul>
-          <li>Game Theory, Topology, Real Analysis, Number Theory,
-        Calculus III, Linear Algebra, Microeconomics</li>
-        </ul>
-      </li>
-    </ul>
+    <p style={{fontSize:22, marginBottom:0}}><b>Gems Modern Academy</b></p>
+    <p style={{fontSize:18, marginBottom:0}}> Salutatorian, Aug 2019 - May 2021 </p>
+    
 
-    <p style={{fontSize:22, marginBottom:0}}><b>Davidson Academy</b></p>
-    <p style={{fontSize:18, marginBottom:0}}>Middle/High School, Aug 2015 – May 2021</p>
-    <ul>
-      <li>ACT: 36 (composite), Math: 36, Science: 35, English: 36, Reading: 35, Writing: 10</li>
-    </ul>
     </div>,
 };
 
@@ -102,24 +97,26 @@ const experience = {
   heading: "Experience",
   data: [
     {
-      company: 'SIG',
+      company: 'Bank of America',
       location: "New York, NY",
-      role: 'Quantitative Trading Intern',
+      role: 'Sales and Trading Summer Analyst',
       date: 'Summer 2024',
       description: [
         <ul>
-          <li>Incoming for Summer 2024</li>
+          <li>Global Markets</li>
         </ul>
       ],
     },
     {
-      company: 'Lightspeed',
-      location: "Providence, RI",
-      role: 'Data Science Intern',
-      date: 'Spring 2024',
+      company: 'WorldQuant',
+      location: "",
+      role: 'Quantitative Trading Research Consultant',
+      date: 'Fall 2023 - Ongoing',
       description: [
         <ul>
-          <li>Incoming for Spring 2024</li>
+          <li>  Created alpha models and trading strategies with optimal Sharpe ratio (>1.25) by fine tuning input metrics on price-volume and fundamental datasets.</li>
+          <li> Leveraged time series and cross-sectional operators, backtested algorithm on options and stocks to generate high investment returns. </li>
+
         </ul>
       ],
     },
