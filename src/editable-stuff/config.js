@@ -285,7 +285,7 @@ const awards = {
       paragraph: "" 
     },
      { 
-      img: require("../assets/img/awards_2.png"), 
+      img: require("../assets/img/awards_2.jpeg"), 
       label: "", 
       paragraph: "" 
     },
@@ -300,7 +300,7 @@ const awards = {
       paragraph: "" 
     },
       { 
-      img: require("../assets/img/awards_1.png"), 
+      img: require("../assets/img/awards_1.jpeg"), 
       label: "", 
       paragraph: "" 
     },
@@ -310,7 +310,7 @@ const awards = {
       paragraph: "" 
     },
        { 
-      img: require("../assets/img/awards_3.png"), 
+      img: require("../assets/img/awards_3.jpeg"), 
       label: "", 
       paragraph: "" 
     },
