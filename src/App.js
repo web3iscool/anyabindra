@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { navBar, mainBody, about, experience, leadership, repos, awards, skills, getInTouch,} from "./editable-stuff/config.js";
+import { navBar, mainBody, about, experience, leadership, awards, skills, getInTouch,} from "./editable-stuff/config.js";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
@@ -46,14 +46,14 @@ const Home = React.forwardRef((props, ref) => {
           leadershipList={leadership.data}
         />
       )}
-      {repos.show && (
-        <Project
-          heading={repos.heading}
-          username={repos.gitHubUsername}
-          length={repos.reposLength}
-          specfic={repos.specificRepos}
-        />
-      )}
+      //{repos.show && (
+        //<Project
+          //heading={repos.heading}
+          //username={repos.gitHubUsername}
+          //length={repos.reposLength}
+          //specfic={repos.specificRepos}
+        ///>
+      //)}
       {skills.show && (
         <Skills
           heading={skills.heading}
