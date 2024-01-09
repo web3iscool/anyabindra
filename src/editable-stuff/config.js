@@ -259,12 +259,12 @@ const awards = {
   </div>,
   images: [
     { 
-      img: require("../assets/img/awards_worldquant.png"), 
+      img: require("../assets/img/awards_ib.png"), 
       label: "", 
       paragraph: "" 
     },
     { 
-      img: require("../assets/img/awards_ib.png"), 
+      img: require("../assets/img/awards_worldquant.png"), 
       label: "", 
       paragraph: "" 
     },
