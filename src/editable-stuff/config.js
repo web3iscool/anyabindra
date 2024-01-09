@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "Hi! I am a junior at Carnegie Mellon University studying Electrical and Compuetr Engineering. I am broadly interested at the intersection of Computational Finance and Machine Learning." ,
-  resume: require("../editable-stuff/resume.pdf"),
+  //resume: require("../editable-stuff/resume.pdf"),
   education:
     <div>
     <p style={{fontSize:22, marginBottom:0}}><b>Carnegie Mellon University</b></p>
