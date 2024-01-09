@@ -54,7 +54,7 @@ const about = {
   imageLink: require("../editable-stuff/headshot.jpg"),
   imageSize: 375,
   message:
-    "Hi! I am a junior at Carnegie Mellon University studying Electrical and Compuetr Engineering. I am broadly interested at the intersection of Computational Finance and Machine Learning. ,
+    "Hi! I am a junior at Carnegie Mellon University studying Electrical and Compuetr Engineering. I am broadly interested at the intersection of Computational Finance and Machine Learning." ,
   resume: require("../editable-stuff/resume.pdf"),
   education:
     <div>
