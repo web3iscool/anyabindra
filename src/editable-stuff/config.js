@@ -163,6 +163,22 @@ const experience = {
         <li> Wrote a report on the Gen Z Consumer Trends in 2023, published on Amazon. </li>
         </ul>
       ],
+      images: [
+    { 
+      img: require("../assets/img/awards_halogen.png"), 
+      label: "", 
+      paragraph: "" 
+    },
+    { 
+      img: require("../assets/img/awards_halogen2.png"), 
+      label: "", 
+      paragraph: "" 
+    },
+  ],
+  imageSize: {
+    width:"400", //orig: 615
+    height:"400" //orig: 450
+  }
     },
     {
       company: "Jane Street",
