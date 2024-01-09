@@ -127,6 +127,7 @@ const experience = {
         </ul>
       ],
     },
+    
     {
       company: 'Jefferies Financial Group',
       location: "Jersey City, NJ",
@@ -147,6 +148,19 @@ const experience = {
           <li>Collaborated with cross-functional teams across data science and engineering to enhance data-driven decision-making processes </li>
           <li> Tools,Technologies and Frameworks : CI/CD, Amazon Relational Database Service (RDS), Microservices, Postman API, JavaScript, Scrum, Bitbucket, Cyberark, Jira, DevOps, Machine Learning, Amazon EC2, Spring Boot, Microsoft SQL Server, AWS SageMaker, Robotic Process Automation (RPA), Python </li>
         </ul>,
+      ],
+    },
+      {
+      company: 'Halogen Ventures',
+      location: "Undergraduate Fellow",
+      role: 'Venture Capital Fellow',
+      date: 'Summer 2023',
+      description: [
+        <ul>
+          <li> Seed stage Consumer Technologies Fund, investing in female founded startups</li>
+        <li> Evaluated startups during Founder Pitch Days, performed qualitative and financial analysis to determine feasability of idea and scalability of business model </li>
+        <li> Mapped out a supply chain merger analysis with Akua,a portfolio company. </li>
+        </ul>
       ],
     },
     {
