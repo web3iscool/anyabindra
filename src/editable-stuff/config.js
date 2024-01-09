@@ -160,6 +160,7 @@ const experience = {
           <li> Seed stage Consumer Technologies Fund, investing in female founded startups</li>
         <li> Evaluated startups during Founder Pitch Days, performed qualitative and financial analysis to determine feasability of idea and scalability of business model </li>
         <li> Mapped out a supply chain merger analysis with Akua,a portfolio company. </li>
+        <li> Wrote a report on the Gen Z Consumer Trends in 2023, published on Amazon. </li>
         </ul>
       ],
     },
